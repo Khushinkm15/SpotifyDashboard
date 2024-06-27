@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(19,60,10);
+background: radial-gradient(circle, rgba(19,60,10,1) 0%, rgba(19,19,23,1) 100%, rgba(48,65,46,1) 100%);
+overflow: auto;
+}
+.navBar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+color: white;
+padding: 30px;
+font-size: 30px;
+letter-spacing: 3px;
+border-bottom: 1px solid rgba(245, 233, 233, 0.662);
+}
+.spotify{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 8px;
+}
+.spotify h2{
+font-size: 25px;
+margin-top: 7px;
+}
+.leftcontent{
+    margin-left: 20px;
+    border-right: 1px solid gray;
+    width: 430px;
+}
+.leftcontent h1 {
+    margin: 10px 0;
+    color:white;
+    font-size: 29px;
+}
+
+.track {
+    background-color:rgba(128, 128, 128, 0.184);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    width: 400px;
+   
+}
+
+.track img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.track-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.track-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.track-artist {
+    color:wheat;
+}
+
+.track-info {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.chart {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+canvas {
+    max-width: 100%;
+}
